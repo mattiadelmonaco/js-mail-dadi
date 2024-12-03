@@ -20,3 +20,18 @@
 // 5. SE la variabile booleana è TRUE (quindi mail presente in lista) comparirà un alert con scritto l'esito positivo
 // 6. ALTRIMENTI (variabile booleana FALSE) comparirà un alert con scritto l'esito negativo 
 
+// CODE:
+
+// 1.
+const mailList = ["maria.rossi72@example.com",
+"lucas.bianchi90@example.org",
+"giulia.verdi56@example.net",
+"andrea.neri21@example.it",
+"francesca.gialli83@example.edu",
+"alessandro.morandi77@example.co.uk",
+"stefano.bonetti44@example.biz",
+"elena.donato19@example.tv",
+"michele.rinaldi30@example.info",
+"sara.ferrari52@example.us"]
+console.log (mailList)
+
