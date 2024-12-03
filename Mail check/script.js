@@ -42,3 +42,11 @@ const userMail = prompt("📧 Inserisci la tua mail: 📧 🔎 ricorda di scrive
 let isMailValid = false
 console.log (isMailValid)
 
+// 4. 
+for (let i = 0; i < mailList.length; i++) {
+    if (userMail === mailList[i]) {
+        isMailValid = true
+    }
+    console.log (isMailValid)
+}
+
