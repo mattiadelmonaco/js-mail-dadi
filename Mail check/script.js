@@ -50,3 +50,9 @@ for (let i = 0; i < mailList.length; i++) {
     console.log (isMailValid)
 }
 
+// 5 (if) - 6 (else).
+if (isMailValid) {
+    alert(`✔ La mail inserita (${userMail}) è presente nel sistema! 🥳 🔓 Puoi accedere correttamente! 🟢`)
+} else {
+    alert(`❌ La mail inserita (${userMail}) NON è presente nel sistema! 🛑 🔒 NON puoi accedere! 🔴`)
+}
