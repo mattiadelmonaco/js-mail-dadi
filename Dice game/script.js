@@ -15,6 +15,9 @@
 
 // CODE: 
 
+// extra
+alert("Preparati: stai sfidando il computer a dadi! 😱")
+
 // 1. 
 const playerNumber = Math.ceil(Math.random() *6)
 console.log (`Numero giocatore: ${playerNumber}`)
