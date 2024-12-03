@@ -36,5 +36,9 @@ const mailList = ["maria.rossi72@example.com",
 console.log (mailList)
 
 // 2. 
-const isMailValid = prompt("Inserisci la tua mail")
+const userMail = prompt("📧 Inserisci la tua mail: 📧 🔎 ricorda di scriverla correttamente! 🔍 (es.: email@diesempio.com)")
+
+// 3.
+let isMailValid = false
+console.log (isMailValid)
 
