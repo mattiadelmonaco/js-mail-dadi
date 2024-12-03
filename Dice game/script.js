@@ -14,4 +14,6 @@
 // CODE: 
 
 // 1. 
+const playerNumber = Math.ceil(Math.random() *6)
+console.log (playerNumber)
 
