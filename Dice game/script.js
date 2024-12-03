@@ -17,3 +17,7 @@
 const playerNumber = Math.ceil(Math.random() *6)
 console.log (playerNumber)
 
+// 2.
+const computerNumber = Math.ceil(Math.random() *6)
+console.log (computerNumber)
+
