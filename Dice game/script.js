@@ -17,9 +17,20 @@
 
 // 1. 
 const playerNumber = Math.ceil(Math.random() *6)
-console.log (playerNumber)
+console.log (`Numero giocatore: ${playerNumber}`)
 
 // 2.
 const computerNumber = Math.ceil(Math.random() *6)
-console.log (computerNumber)
+console.log (`Numero computer: ${computerNumber}`)
 
+// 3 (if) - 4 (else if) - 5 (else). 
+if (playerNumber > computerNumber) {
+    alert(`🔢 Il numero estratto per te è stato: 🎲 ${playerNumber} 🎲, 🔢 il numero estratto per il computer è stato: 🎲 ${computerNumber} 🎲, perciò... `)
+    alert(`🟢🎆✨ HAI VINTO! 💸🎉🟢 Complimenti! 🎊🧨 🔢 Risultato 🏆 ${playerNumber} 🏆 - 💔 ${computerNumber} 💔`)
+} else if (computerNumber > playerNumber) {
+    alert(`🔢 Il numero estratto per te è stato: 🎲 ${playerNumber} 🎲, 🔢 il numero estratto per il computer è stato: 🎲 ${computerNumber} 🎲, perciò... `)
+    alert(`🔴☠💩 HAI PERSO! 💩☠🔴 Ritenta, sarai più fortunato! ❌🛑 🔢 Risultato 💔 ${playerNumber} 💔 - 🏆 ${computerNumber} 🏆`)
+} else {
+    alert(`🔢 Il numero estratto per te è stato: 🎲 ${playerNumber} 🎲, 🔢 il numero estratto per il computer è stato: 🎲 ${computerNumber} 🎲, perciò... `)
+    alert(`🟡 PAREGGIO! 🟡 Stessi numeri estratti, ritenta! 🟡 🔢 Risultato 🟨 ${playerNumber} 🟨 - 🟨 ${computerNumber} 🟨`)
+}
